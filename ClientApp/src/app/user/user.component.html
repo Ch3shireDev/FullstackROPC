@@ -1,0 +1,22 @@
+<div class="article p-5 m-5 border shadow">
+  <h1>User data</h1>
+  <button class="btn-lg btn-primary" (click)="logout()">Logout</button>
+  <div class="p-5">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Type</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let property of properties; index as i">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ property.type }}</td>
+          <td>{{ property.value }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

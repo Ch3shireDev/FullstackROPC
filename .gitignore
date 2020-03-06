@@ -1,0 +1,7 @@
+ResourceAPI/obj/**
+ResourceAPI/bin/**
+ResourceAPI/.vs/**
+AuthServer/obj/**
+AuthServer/bin/**
+AuthServer/.vs/**
+ClientApp/node_modules/**
